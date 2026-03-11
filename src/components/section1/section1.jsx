@@ -1,0 +1,15 @@
+import React from 'react'
+import Navbar from './Navbar'
+import Page1content from './page1content'
+
+const Section1 = (props) => {
+  return (
+
+    <div className='h-screen w-full'>
+      <Navbar />
+      <Page1content users={props.users} leftuser={props.leftuser}/>
+    </div>
+  )
+}
+
+export default Section1
