@@ -3,7 +3,7 @@ import React from 'react'
 const Herotext = (props) => {
   return (
       <div className='p-6'>
-        <h3 className='mb-7 text-6xl font-bold'>Prospective <br /><span>Customer <br />Segmentation</span></h3>
+        <h3 className='mb-7 text-6xl font-bold'>Prospective <br /><span className='leading-relaxed text-gray-800'>Customer </span> <br /><span>Segmentation</span></h3>
         <p className='w-[90%] font-medium text-gray-500'>{props.content}</p>
       </div>
   )
